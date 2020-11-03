@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography } from '@material-ui/core';
 import { Doughnut } from 'react-chartjs-2';
 import { useSelector } from 'react-redux';
-import {  selectData } from '../covidSlice';
+import { selectData } from '../covidSlice';
 
 
 const PieChart: React.FC = () => {
